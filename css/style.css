@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix::after{
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* --------------------------- */
+
+header{
+    background-color: #fff;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 150px;
+    background: center;
+    background-size: cover;
+    line-height: 70px;
+    
+}
+
+.left-menu .menu{
+    padding-left: 20px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    padding: 0px 30px;
+    line-height: 70px;
+}
+
+.black{
+    color: #222;
+}
+
+.menu ul li a{
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.pulsante a{
+    color: #fff;
+    background-color: #0060FF;
+    padding: 10px 20px;
+}
+
+.Jumbotron{
+    padding-top: 180px;
+    width: 100%;
+    height: 800px;
+    background-color: #add1ea;
+}
+
+.jumbotron-content{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.jumbotron-content h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.jumbotron-content .fl .pulsante{
+    margin: 40px 0px;
+}
+
+.jumbotron-text{
+    width: 450px;
+}
+
+.arrow{
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+.jumbotron-image img{
+    width: 800px;
+    margin-bottom: -60px;
+}
+
