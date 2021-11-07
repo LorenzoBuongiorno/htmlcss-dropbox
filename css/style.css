@@ -419,7 +419,7 @@ section{
 }
 
 .second-column{
-    width: 800px;
+    width: calc(100% - 1100px);
     padding: 80px;
 }
 
