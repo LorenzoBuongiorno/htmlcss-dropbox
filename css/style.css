@@ -321,6 +321,7 @@ section{
 
 .second-section{
     margin-top: 150px;
+    height: 600px;
 }
 
 .photo{
@@ -352,4 +353,98 @@ section{
     background-color: #fff;
     border: 2px solid #555;
     color: #555;
+}
+
+.centro{
+    margin: 0px 90px;
+}
+
+.row .riquadro{
+    margin-top: 70px;
+}
+
+.row h1{
+    font-size: 40px;
+}
+
+.riquadro{
+    width: calc(100% / 3 - 60px);
+    height: 600px;
+}
+
+.riquadro img{
+    width: 100%;
+    background: center;
+}
+
+.riquadro h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.riquadro div{
+    font-size: 18px;
+}
+
+.riquadro div span{
+    text-decoration: underline;
+}
+
+.info{
+    margin-top: 130px;
+    width: 570px;
+}
+
+.info h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.link a{
+    color: #2196F3;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.company{
+    width: 100%;
+    height: 800px;
+    background-color: #add1ea;
+    margin: 0 auto;
+}
+
+.first-column{
+    width: 550px;
+    height: 550px;
+    background-color: red;
+}
+
+.second-column{
+
+}
+
+.column-back{
+    background-color: #eee;
+}
+
+.third-column{
+    width: 550px;
+    height: 550px;
+    background-color: red;
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    border: 2px solid yellow;
+}
+
+.square img{
+    width: 70%;
+    background: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
