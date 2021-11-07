@@ -408,20 +408,32 @@ section{
 
 .company{
     width: 100%;
-    height: 800px;
     background-color: #add1ea;
     margin: 0 auto;
+    margin-top: 40px;
 }
 
 .first-column{
     width: 550px;
     height: 550px;
-    background-color: red;
 }
 
 .second-column{
-
+    width: 800px;
+    padding: 80px;
 }
+
+.second-column p{
+    line-height: 25px;
+    margin-bottom: 60px;
+}
+
+.second-column img{
+    width: 200px;
+    background: center;
+    margin-bottom: 50px;
+}
+
 
 .column-back{
     background-color: #eee;
@@ -430,21 +442,80 @@ section{
 .third-column{
     width: 550px;
     height: 550px;
-    background-color: red;
 }
 
 .square{
     width: 50%;
     height: 50%;
-    background-color: green;
-    border: 2px solid yellow;
+
 }
 
 .square img{
-    width: 70%;
+    width: 50%;
     background: center;
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(85%) saturate(2%) hue-rotate(192deg) brightness(107%) contrast(100%);
+}
+
+.green{
+    background-color: #94d595;
+    border: 10px solid #caeacb;
+}
+
+.purple{
+    background-color: #6b002b;
+}
+
+.cyan{
+    background-color: #0096d3;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.orange{
+    background-color: #e90006;
+}
+
+.lightblue{
+    background-color: #add1ea;
+}
+
+.blue{
+    background-color: #022486;
+}
+
+.yellow{
+    background-color: #ffd600;
+}
+
+.company-footer{
+    width: 1300px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 150px 0px;
+}
+
+.company-footer h1{
+    width: 600px;
+    height: 200px;
+    color: #6b002b;
+    font-size: 50px;
+}
+
+.company-footer .pulsante{
+
+    text-align: center;
+    margin-top: 25px;
+}
+
+.company-footer .pulsante a{
+    background-color: #eee;
+    color: #333;
+    padding: 10px 90px;
+
 }
