@@ -28,6 +28,10 @@ a{
     font-weight: 500;
 }
 
+main h1{
+    font-size: 35px;
+}
+
 /* --------------------------- */
 
 /* HEADER */
@@ -223,15 +227,11 @@ section{
     padding:  30px;
 }
 
-.col-main h1{
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-
 .prezzo{
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .durata{
@@ -353,10 +353,6 @@ section{
     padding: 80px;
 }
 
-.row-text h1{
-    font-size: 30px;
-}
-
 .row-text div{
     margin-top: 30px;
     font-size: 20px;
@@ -376,10 +372,6 @@ section{
 
 .row .riquadro{
     margin-top: 70px;
-}
-
-.row h1{
-    font-size: 40px;
 }
 
 .riquadro{
@@ -411,9 +403,8 @@ section{
     width: 570px;
 }
 
-.info h1{
-    font-size: 40px;
-    margin-bottom: 30px;
+.link{
+    margin-top: 30px;
 }
 
 .link a{
@@ -427,6 +418,7 @@ section{
     width: 100%;
     margin: 0 auto;
     margin-top: 40px;
+    background-color: #eee;
 }
 
 .first-column{
@@ -451,11 +443,6 @@ section{
     margin-bottom: 50px;
 }
 
-
-.column-back{
-    background-color: #eee;
-}
-
 .third-column{
     width: 550px;
     height: 550px;
@@ -464,7 +451,6 @@ section{
 .square{
     width: 50%;
     height: 50%;
-
 }
 
 .square img{
@@ -523,9 +509,9 @@ section{
 }
 
 .company-footer-content h1{
+    font-size: 40px;
     width: 600px;
     color: #6b002b;
-    font-size: 50px;
 }
 
 .company-footer-content .pulsante{
@@ -544,18 +530,17 @@ section{
     width: 1300px;
     margin: 0 auto;
     margin-top: 150px;
-    border-bottom: 2px solid #ccc;
 }
 
-.question-section h1{
-    font-size: 45px;
-    margin-bottom: 60px;
+.question-box{
+    margin-top: 50px;
+    border-top: 2px solid  #ccc;
 }
 
 .question{
     height: 120px;
     font-size: 20px;
-    border-top: 2px solid  #ccc;
+    border-bottom: 2px solid  #ccc;
     line-height: 120px;
     font-weight: bold;
 }
@@ -585,10 +570,7 @@ footer{
 
 .footer-cont-array ul li a{
     color: #fff;
-}
-
-.footer-cont-array ul li{
-    margin: 10px 0px;
+    line-height: 35px;
 }
 
 .footer-cont-array{
