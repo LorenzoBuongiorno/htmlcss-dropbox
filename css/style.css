@@ -30,6 +30,7 @@ a{
 
 /* --------------------------- */
 
+/* HEADER */
 header{
     background-color: #fff;
     padding: 5px;
@@ -39,6 +40,7 @@ header{
     line-height: 70px;
 }
 
+/* LOGO */
 img{
     width: 100%;
     vertical-align: middle;
@@ -50,6 +52,7 @@ img{
     background-size: cover;
 }
 
+/* MENU */
 .left-menu .menu{
     padding-left: 20px;
 }
@@ -75,6 +78,7 @@ img{
     padding: 10px 20px;
 }
 
+/* JUMBOTRON */
 .Jumbotron{
     padding-top: 180px;
     width: 100%;
@@ -110,6 +114,7 @@ img{
     width: 900px;
 }
 
+/* MAIN */
 main{
     width: 1300px;
     margin: 0 auto;
@@ -120,6 +125,7 @@ main{
     margin-bottom: 70px;
 }
 
+/* RADIO CHECK */
 .radiocheck {
     display: inline-block;
     position: relative;
@@ -176,6 +182,7 @@ main{
     background: white;
 }
 
+/* COLONNE */
 section{
     width: 100%;
     margin-top: 40px;
@@ -325,6 +332,7 @@ section{
     padding-left: 40px;
 }
 
+/* PARTNERS */
 .second-section{
     margin-top: 150px;
     height: 600px;
@@ -361,6 +369,7 @@ section{
     color: #555;
 }
 
+/* GRIGLIA */
 .centro{
     margin: 0px 90px;
 }
@@ -396,6 +405,7 @@ section{
     text-decoration: underline;
 }
 
+/* INFO */
 .info{
     margin-top: 130px;
     width: 570px;
@@ -412,6 +422,7 @@ section{
     text-decoration: underline;
 }
 
+/* TEAMS */
 .company{
     width: 100%;
     margin: 0 auto;
@@ -425,6 +436,7 @@ section{
 
 .second-column{
     width: calc(100% - 1100px);
+    height: 550px;
     padding: 80px;
 }
 
@@ -462,7 +474,7 @@ section{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    filter: brightness(0) saturate(100%) invert(100%) sepia(85%) saturate(2%) hue-rotate(192deg) brightness(107%) contrast(100%);
+    filter: invert(100%);
 }
 
 .green{
@@ -527,6 +539,7 @@ section{
     padding: 10px 90px;
 }
 
+/* QUESTIONS */
 .question-section{
     width: 1300px;
     margin: 0 auto;
@@ -556,6 +569,7 @@ section{
     color: #222;
 }
 
+/* FOOTER */
 footer{
     margin-top: 150px;
     width: 100%;
