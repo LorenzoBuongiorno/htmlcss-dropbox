@@ -422,12 +422,12 @@ section{
 }
 
 .first-column{
-    width: 550px;
+    width: 30%;
     height: 550px;
 }
 
 .second-column{
-    width: calc(100% - 1100px);
+    width: 40%;
     height: 550px;
     padding: 80px;
 }
@@ -444,7 +444,7 @@ section{
 }
 
 .third-column{
-    width: 550px;
+    width: 30%;
     height: 550px;
 }
 
